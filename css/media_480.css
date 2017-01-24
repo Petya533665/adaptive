@@ -1,0 +1,50 @@
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .slider {
+        height: 200px;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .figure {
+        display: block;
+        width: 180px;
+        position: relative;
+    }
+    .iphone {
+        z-index: 1;
+        position: absolute;
+        background-image: url(../img/iPhone_480.png);
+        width: 125px;
+        height: 265px;
+        top: -30px;
+        left: 35px;
+    }
+    .copy {
+        z-index: 0;
+        position: absolute;
+        background-image: url(../img/iphone_copy_480.png);
+        width: 85px;
+        height: 175px;
+        top: 10px;
+        left: -5px;
+    }
+    .arrow {
+        margin: auto;
+    }
+    .right {
+        margin-left: 15px;
+    }
+    .left {
+        margin-right: 15px;
+    }
+    .sponsors_img {
+        width: 345px;
+        height: 154px;
+        background-image: url(../img/logos_480.png);
+        margin: auto;
+    }
+    .news{
+        display: flex;
+    }
+    .dblock{
+    display: none;
+}
+}
